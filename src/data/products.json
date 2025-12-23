@@ -1,0 +1,122 @@
+{
+  "tea": [
+    {
+      "id": "tea-1",
+      "name": "Premium Black Tea",
+      "description": "Rich, full-bodied black tea from Rwanda's northern highlands",
+      "category": "tea",
+      "image": "https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "tea-2",
+      "name": "Green Mountain Tea",
+      "description": "Delicate green tea with subtle floral notes",
+      "category": "tea",
+      "image": "https://images.pexels.com/photos/1417945/pexels-photo-1417945.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "tea-3",
+      "name": "White Pearl Tea",
+      "description": "Rare white tea with naturally sweet undertones",
+      "category": "tea",
+      "image": "https://images.pexels.com/photos/230477/pexels-photo-230477.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "tea-4",
+      "name": "Oolong Reserve",
+      "description": "Semi-oxidized tea with complex flavor profile",
+      "category": "tea",
+      "image": "https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ],
+  "coffee": [
+    {
+      "id": "coffee-1",
+      "name": "Arabica Sunrise",
+      "description": "Single-origin Arabica with bright citrus notes",
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "coffee-2",
+      "name": "Dark Roast Blend",
+      "description": "Bold, smoky blend perfect for espresso",
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "coffee-3",
+      "name": "Medium Roast Classic",
+      "description": "Balanced, smooth coffee for everyday enjoyment",
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "coffee-4",
+      "name": "Honey Process",
+      "description": "Naturally sweet coffee with caramel notes",
+      "category": "coffee",
+      "image": "https://images.pexels.com/photos/2711959/pexels-photo-2711959.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ],
+  "herbal": [
+    {
+      "id": "herbal-1",
+      "name": "Chamomile Dreams",
+      "description": "Calming chamomile blend for relaxation",
+      "category": "herbal",
+      "image": "https://images.pexels.com/photos/161513/bowl-of-chamomile-chamomile-flowers-flowers-161513.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "herbal-2",
+      "name": "Peppermint Fresh",
+      "description": "Refreshing peppermint with cooling properties",
+      "category": "herbal",
+      "image": "https://images.pexels.com/photos/4021775/pexels-photo-4021775.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "herbal-3",
+      "name": "Ginger Spice",
+      "description": "Warming ginger blend with natural heat",
+      "category": "herbal",
+      "image": "https://images.pexels.com/photos/1435735/pexels-photo-1435735.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "herbal-4",
+      "name": "Hibiscus Sunset",
+      "description": "Tart, vibrant hibiscus infusion",
+      "category": "herbal",
+      "image": "https://images.pexels.com/photos/7504829/pexels-photo-7504829.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ],
+  "instant": [
+    {
+      "id": "instant-1",
+      "name": "Instant Coffee Original",
+      "description": "Quick, convenient premium instant coffee",
+      "category": "instant",
+      "image": "https://images.pexels.com/photos/6802983/pexels-photo-6802983.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "instant-2",
+      "name": "Instant Cappuccino",
+      "description": "Creamy cappuccino mix ready in seconds",
+      "category": "instant",
+      "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "instant-3",
+      "name": "Instant Latte",
+      "description": "Smooth latte blend with milk powder",
+      "category": "instant",
+      "image": "https://images.pexels.com/photos/1251175/pexels-photo-1251175.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": "instant-4",
+      "name": "Instant Mocha",
+      "description": "Rich chocolate coffee combination",
+      "category": "instant",
+      "image": "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ]
+}
