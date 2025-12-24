@@ -37,7 +37,7 @@ const ProductsSection: React.FC = () => {
 
         {/* Horizontal Scrollable Products Container */}
         <div className="relative">
-          {/* Navigation Arrows - Only show when not showing all */}
+          {/* Navigation Arrows - Desktop only */}
           {!showAll && (
             <>
               <button
@@ -55,6 +55,17 @@ const ProductsSection: React.FC = () => {
                 <ChevronRight className="w-6 h-6" />
               </button>
             </>
+          )}
+
+          {/* Mobile Navigation Arrow - Clickable arrow on the right */}
+          {!showAll && (
+            <button
+              onClick={scrollRight}
+              className="absolute right-2 top-1/2 -translate-y-1/2 z-10 md:hidden bg-amber-500 hover:bg-amber-600 text-white p-3 rounded-full shadow-lg transition-all active:scale-95 scroll-hint-arrow"
+              aria-label="Scroll to next product"
+            >
+              <ChevronRight className="w-7 h-7" />
+            </button>
           )}
 
           {/* Products Grid/Scroll Container */}
@@ -102,13 +113,20 @@ const ProductsSection: React.FC = () => {
                   <p className="text-gray-600 mb-4 line-clamp-2">
                     {product.description}
                   </p>
-                  {/* <button className="w-full bg-gray-900 hover:bg-amber-500 text-white py-3 rounded-lg font-semibold transition-all">
-                    View Details
-                  </button> */}
                 </div>
               </div>
             ))}
           </div>
+
+          {/* Mobile Swipe Hint Text */}
+          {!showAll && (
+            <div className="text-center mt-4 md:hidden">
+              <p className="text-sm text-gray-500 flex items-center justify-center gap-2">
+                <span>Swipe to explore more</span>
+                <ChevronRight className="w-4 h-4 animate-pulse" />
+              </p>
+            </div>
+          )}
         </div>
 
         {/* Show More/Less Button */}
@@ -124,10 +142,26 @@ const ProductsSection: React.FC = () => {
         )}
       </div>
 
-      {/* Hide scrollbar CSS */}
+      {/* Hide scrollbar and add animations */}
       <style>{`
         .scrollbar-hide::-webkit-scrollbar {
           display: none;
+        }
+        
+        /* Animated scroll hint arrow */
+        .scroll-hint-arrow {
+          animation: scrollHint 2s ease-in-out infinite;
+        }
+        
+        @keyframes scrollHint {
+          0%, 100% {
+            transform: translateX(0);
+            opacity: 0.9;
+          }
+          50% {
+            transform: translateX(8px);
+            opacity: 1;
+          }
         }
       `}</style>
     </section>

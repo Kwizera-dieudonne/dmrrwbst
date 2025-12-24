@@ -7,17 +7,17 @@ const AboutSection: React.FC = () => {
     {
       title: 'Coffee Roasting',
       description: 'Expert roasting techniques bringing out the unique characteristics and rich flavors of every bean.',
-      image: '/assets/images/mission/roasting.avif'
+      image: `${process.env.PUBLIC_URL}/assets/images/mission/roasting.avif`
     },
     {
       title: 'Fast Delivery',
       description: 'Reliable nationwide shipping ensuring your fresh coffee reaches you quickly and safely.',
-      image: '/assets/images/mission/delivery.avif'
+      image: `${process.env.PUBLIC_URL}/assets/images/mission/delivery.avif`
     },
     {
       title: 'Bulk Wholesale',
       description: 'Flexible wholesale solutions with competitive pricing for businesses and retailers.',
-      image: '/assets/images/products/coffeebeans2.jpeg'
+      image: `${process.env.PUBLIC_URL}/assets/images/products/coffeebeans2.jpeg`
     }
   ];
 
@@ -50,7 +50,7 @@ const AboutSection: React.FC = () => {
           {/* Right Side - Image */}
           <div className="relative h-60 lg:h-[500px] rounded-2xl overflow-hidden shadow-xl">
             <img
-              src="/assets/images/mission/woman.webp"
+              src={`${process.env.PUBLIC_URL}/assets/images/mission/woman.webp`}
               alt="Coffee farm landscape"
               className="w-full h-full object-cover"
             />
@@ -63,7 +63,7 @@ const AboutSection: React.FC = () => {
           {/* Left Side - Smaller Image */}
           <div className="relative h-80 lg:h-96 rounded-2xl overflow-hidden shadow-lg order-2 lg:order-1">
             <img
-              src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1200&q=80"
+              src={`${process.env.PUBLIC_URL}/assets/images/mission/coffecup.avif`}
               alt="Roasted coffee beans"
               className="w-full h-full object-cover"
             />
