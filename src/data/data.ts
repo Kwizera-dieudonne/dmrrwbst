@@ -21,28 +21,28 @@ export const productsData: Product[] = [
     name: 'Coffee',
     category: 'Coffee',
     description: 'Single-origin coffee beans, delivering a complex and refined taste.',
-    image: '/assets/images/products/coffee.jpeg'
+    image: `${process.env.PUBLIC_URL}/assets/images/products/coffee.jpeg`
   },
   {
     id: 2,
     name: 'Coffe Beans',
     category: 'Coffee',
     description: 'Bold and rich espresso roast with caramel undertones, perfect for your morning ritual.',
-    image: '/assets/images/products/coffee-beans.jpeg'
+    image: `${process.env.PUBLIC_URL}/assets/images/products/coffee-beans.jpeg`
   },
   {
     id: 3,
     name: 'Tea bag',
     category: 'Tea',
     description: 'Fresh and delicate green tea leaves with bags, offering a clean and refreshing taste.',
-    image: '/assets/images/products/tea-bag.jpeg'
+    image: `${process.env.PUBLIC_URL}/assets/images/products/tea-bag.jpeg`
   },
   {
     id: 4,
     name: 'Coffee',
     category: 'Coffee',
     description: 'Calming blend of chamomile, lavender, and mint for a soothing evening experience.',
-    image: '/assets/images/products/coffeebeans2.jpeg'
+    image: `${process.env.PUBLIC_URL}/assets/images/products/coffeebeans2.jpeg`
   }
 ];
 

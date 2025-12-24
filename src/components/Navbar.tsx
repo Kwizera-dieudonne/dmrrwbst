@@ -34,6 +34,7 @@ const Navbar: React.FC = () => {
             className="flex items-center space-x-2 cursor-pointer z-50" 
             onClick={() => scrollToSection('hero')}
           >
+            {/* LOGO */}
             {/* <Coffee className="w-8 h-8 text-amber-500" /> */}
             <span className={`font-bold text-xl transition-colors ${
               scrolled ? 'text-amber-900' : 'text-white'
